@@ -1,0 +1,21 @@
+Cancer Center Referral Model
+
+This project implements PCA and logistic regression to identify essential variables for securing donor funding at the Anderson Cancer Center.
+
+Instructions
+
+1. Clone the repository.
+2. Install dependencies using `pip install -r requirements.txt`.
+3. Run `python cancer_pca_logreg.py` to execute the PCA and logistic regression.
+4. Results will be printed, including accuracy of the logistic regression model.
+
+Files
+
+- `cancer_pca_logreg.py`: Python script containing the implementation.
+- `README.md`: This file.
+- `requirements.txt`: List of Python packages required.
+
+Notes
+
+- PCA is used to reduce the dataset into 2 principal components.
+- Logistic regression is implemented for predicting donor funding likelihood based on the PCA components.
